@@ -92,7 +92,10 @@
 .btn.btn-secondary:hover {
     color: var(--bs-primary) !important;
 }
-
+.dropdow-scrolling{
+    height: 400px;
+    overflow: auto;
+}
 
 /*** Section Title Start ***/
 .section-title {
