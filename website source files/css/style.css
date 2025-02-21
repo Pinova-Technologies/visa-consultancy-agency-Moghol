@@ -1,6 +1,11 @@
 
 /*** Spinner Start ***/
 /*** Spinner ***/
+
+body{
+
+    background-color:  #c9baa7;
+}
 #spinner {
     opacity: 0;
     visibility: hidden;
