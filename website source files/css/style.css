@@ -225,7 +225,7 @@
 }
 
 .sticky-top .navbar-light .navbar-brand img {
-    max-height: 45px;
+    max-height: 200px;
 }
 
 .navbar .dropdown-toggle::after {
@@ -412,8 +412,17 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, 0.6));
+    /* background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, 0.6)); */
     background-size: cover;
+}
+
+.nav-item.dropdown .dropdown-menu {
+    display: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
 }
 
 
