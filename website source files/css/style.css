@@ -191,7 +191,20 @@ body{
 .topbar a i:hover {
     color: var(--bs-secondary) !important;
 }
+.icon-color{
+    color: #061820
+}
+.icon-color:hover{
+    color: var(--bs-secondary)
+}
+.custom-btn-outline {  
+    border-color: #061820; 
+}
 
+.custom-btn-outline:hover {
+    background-color: #061820; 
+   
+}
 
 @media (max-width: 768px) {
     .topbar {
@@ -202,6 +215,9 @@ body{
 
 
 /*** Navbar ***/
+.text-navy-blue{
+    color: #061820;
+}
 .navbar-light .navbar-nav .nav-link {
     font-family: 'Poppins', sans-serif;
     position: relative;
