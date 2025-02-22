@@ -645,6 +645,9 @@ body{
 
 
 /*** Features Start ***/
+/* .feature-card-bg{
+    background-color: #061820;
+} */
 .features .feature-item {
     position: relative;
     box-shadow: 0 0 45px rgba(0, 0, 0, 0.1);
