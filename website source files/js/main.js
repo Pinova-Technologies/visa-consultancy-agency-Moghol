@@ -103,3 +103,23 @@
 
 })(jQuery);
 
+document.addEventListener("DOMContentLoaded", function () {
+    function setupDropdownLink(dropdownId) {
+        let dropdownLink = document.querySelector(`#${dropdownId}`);
+        if (dropdownLink) {
+            dropdownLink.addEventListener("click", function (event) {
+                let dropdownMenu = this.nextElementSibling;
+                let isDropdownOpen = dropdownMenu.classList.contains("show");
+
+                if (!isDropdownOpen) {
+                    event.preventDefault(); // Prevent Bootstrap dropdown behavior
+                    window.location.href = this.href; // Navigate to the respective page
+                }
+            });
+        }
+    }
+
+    // Apply function to both dropdowns
+    setupDropdownLink("servicesDropdown");
+    setupDropdownLink("countriesDropdown");
+});
