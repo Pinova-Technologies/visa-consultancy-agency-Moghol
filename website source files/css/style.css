@@ -177,10 +177,10 @@ body{
     transition: 0.5s;
 }
 
-.topbar {
+/* .topbar {
     padding: 2px 10px 2px 20px;
     background: var(--bs-primary) !important;
-}
+} */
 
 .topbar a,
 .topbar a i {
