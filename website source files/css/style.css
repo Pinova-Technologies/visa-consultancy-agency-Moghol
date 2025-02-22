@@ -174,7 +174,7 @@ body{
 
 /*** Topbar Start ***/
 .topbar-bg{
-    background-color: #061820;
+    background-color: #ABD4D8;
 }
 .fixed-top .container {
     transition: 0.5s;
@@ -193,6 +193,7 @@ body{
 .topbar a:hover,
 .topbar a i:hover {
     color: var(--bs-secondary) !important;
+    font-weight:500;
 }
 .icon-color{
     color: #c9baa7;
@@ -201,7 +202,7 @@ body{
     color: var(--bs-secondary)
 }
 .custom-btn-outline {  
-    border-color: #c9baa7; 
+    border-color: #061820; 
 }
 
 .custom-btn-outline:hover {
@@ -265,7 +266,7 @@ body{
     background-color: #061820;
 }
 .second-nav-bg{
-    background-color: #c9baa7;
+    background-color: #ABD4D8;
 }
 
 @media (min-width: 1200px) {
