@@ -207,7 +207,7 @@ body{
     position: relative;
     margin-right: 25px;
     padding: 35px 0;
-    color: var(--bs-primary) !important;
+    color: var(--bs-light) !important;
     font-size: 17px;
     font-weight: 400;
     outline: none;
@@ -216,7 +216,7 @@ body{
 
 .sticky-top .navbar-light .navbar-nav .nav-link {
     padding: 20px 0;
-    color: var(--bs-primary) !important;
+    color: var(--bs-light) !important;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
@@ -239,6 +239,12 @@ body{
     font-family: "Font Awesome 5 Free";
     font-weight: 600;
     vertical-align: middle;
+}
+.navbar-bg{
+    background-color: #061820 !important;
+}
+.second-nav-bg{
+    background-color: #c9baa7;
 }
 
 @media (min-width: 1200px) {
@@ -299,7 +305,7 @@ body{
 
 @media (min-width: 991.98px) {
     .sticky-top .navbar-light {
-        background: var(--bs-light) !important;
+        background: #061820 !important;
     }
 
     /*** Top and Bottom borders go out ***/
