@@ -230,7 +230,7 @@ body{
 }
 
 .sticky-top .navbar-light .navbar-brand img {
-    max-height: 200px;
+    max-height: 80px;
 }
 
 .navbar .dropdown-toggle::after {
