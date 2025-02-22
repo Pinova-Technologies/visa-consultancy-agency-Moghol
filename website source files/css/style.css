@@ -187,7 +187,7 @@ body{
 
 .topbar a,
 .topbar a i {
-    transition: 0.5s;
+    transition: 2s;
 }
 
 .topbar a:hover,
@@ -206,7 +206,7 @@ body{
 }
 
 .custom-btn-outline:hover {
-    background-color: #061820; 
+    /* background-color: #061820;  */
     border-color: var(--bs-secondary);
    
 }
