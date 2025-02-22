@@ -222,6 +222,7 @@ body{
 .text-navy-blue{
     color: #061820;
 }
+
 .navbar-light .navbar-nav .nav-link {
     font-family: 'Poppins', sans-serif;
     position: relative;
@@ -261,7 +262,7 @@ body{
     vertical-align: middle;
 }
 .navbar-bg{
-    background-color: #0c494b !important;
+    background-color: #061820;
 }
 .second-nav-bg{
     background-color: #c9baa7;
