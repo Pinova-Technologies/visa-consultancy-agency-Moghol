@@ -645,9 +645,9 @@ body{
 
 
 /*** Features Start ***/
-/* .feature-card-bg{
+.feature-card-bg{
     background-color: #061820;
-} */
+}
 .features .feature-item {
     position: relative;
     box-shadow: 0 0 45px rgba(0, 0, 0, 0.1);
@@ -679,7 +679,7 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: var(--bs-light);
+    background: #c9baa7;
     transition: 0.5s;
 }
 
@@ -696,6 +696,12 @@ body{
     color: var(--bs-secondary) !important;
     transform: rotate(360deg);
     transition: all 0.5s ease;
+}
+.feature-read-more{
+    color: var(--bs-secondary);
+}
+.feature-read-more:hover{
+    color: white;
 }
 /*** Features End ***/
 
