@@ -785,6 +785,8 @@ body{
 
 
 /*** testimonial Start ***/
+/*
+
 .testimonial .owl-carousel.testimonial-carousel {
     position: relative;
 }
@@ -828,12 +830,12 @@ body{
 .testimonial .owl-carousel.testimonial-carousel .owl-nav .owl-prev:hover,
 .testimonial .owl-carousel.testimonial-carousel .owl-nav .owl-next:hover {
     color: var(--bs-secondary);
-}
+})*/
 /*** testimonial end ***/
 
 
 /*** training Start ***/
-.training .training-item .training-inner {
+/*.training .training-item .training-inner {
     position: relative;
 }
 
@@ -885,7 +887,7 @@ body{
 
 .training .training-item:hover .training-content {
     bottom: 0;
-}  
+} */ 
 /*** training End ***/
 
 
@@ -894,7 +896,7 @@ body{
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 0 45px rgba(0, 0, 0, 0.2);
-    /* background:#061820; */
+    background:#061820;
     /* background: var(--bs-light); */
     transition: 0.5s;
 }
