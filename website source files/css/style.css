@@ -786,7 +786,6 @@ body{
 
 /*** testimonial Start ***/
 /*
-
 .testimonial .owl-carousel.testimonial-carousel {
     position: relative;
 }
@@ -922,6 +921,7 @@ body{
 .contact .office .office-item .office-content a.text-secondary,
 .contact .office .office-item .office-content a.text-muted {
     transition: 0.5s;
+    
 }
 
 .contact .office .office-item .office-content a.text-muted:hover {
