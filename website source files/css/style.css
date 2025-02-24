@@ -945,7 +945,7 @@ body{
 }
 
 .contact .office .office-item .office-content a.text-secondary:hover {
-    color: var(--bs-primary) !important;
+    color: var(--bs-primary-hover) !important;
 }
 /*** Contact End ***/
 
