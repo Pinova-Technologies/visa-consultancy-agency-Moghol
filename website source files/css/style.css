@@ -317,7 +317,7 @@ body{
     .sticky-top .navbar-light .navbar-nav .nav-link {
         padding: 10px 0;
         margin-left: 0;
-        color: var(--bs-dark) !important;
+        color: var(--bs-light) !important;
     }
 
     .navbar-light .navbar-brand img {
