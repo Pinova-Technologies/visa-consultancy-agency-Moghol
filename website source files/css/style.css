@@ -382,7 +382,31 @@ body{
     padding: 100px 0 60px 0;
 }
 .bg-hajjPackage {
-    background:  url(../img/umrah&hajj.jpg);
+    background:  url(../img/umrah&hajj-banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-size: cover;
+    padding: 100px 0 60px 0;
+}
+.bg-tourPackage {
+    background:  url(../img/Tour\ Packages.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-size: cover;
+    padding: 100px 0 60px 0;
+}
+.bg-study {
+    background:  url(../img/Study\ Visa.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-size: cover;
+    padding: 100px 0 60px 0;
+}
+.bg-immigration {
+    background:  url(../img/immigration\ service.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: initial;
@@ -405,14 +429,7 @@ body{
     background-size: cover;
     padding: 100px 0 60px 0;
 }
-.bg-study {
-    background:  url(../img/Study.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: initial;
-    background-size: cover;
-    padding: 100px 0 60px 0;
-}
+
 /*** Single Page Hero Header End ***/
 
 
