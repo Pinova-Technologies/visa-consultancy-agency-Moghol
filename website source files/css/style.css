@@ -429,6 +429,14 @@ body{
     background-size: cover;
     padding: 100px 0 60px 0;
 }
+.bg-contact {
+    background:  url(../img/contact_us-banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-size: cover;
+    padding: 100px 0 60px 0;
+}
 
 /*** Single Page Hero Header End ***/
 
