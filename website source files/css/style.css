@@ -375,7 +375,7 @@ body{
 /*** Single Page Hero Header Start ***/
 .bg-breadcrumb {
     background:  url(../img/about.jpg);
-    background-position: center center;
+    background-position: 80% center;
     background-repeat: no-repeat;
     background-attachment: initial;
     background-size: cover;
@@ -407,7 +407,7 @@ body{
 }
 .bg-immigration {
     background:  url(../img/immigration\ service.jpg);
-    background-position: center center;
+    background-position: 80% center;
     background-repeat: no-repeat;
     background-attachment: initial;
     background-size: cover;
@@ -415,7 +415,7 @@ body{
 }
 .bg-services {
     background:  url(../img/Services\ We\ Work.jpg);
-    background-position: center center;
+    background-position: 80% center;
     background-repeat: no-repeat;
     background-attachment: initial;
     background-size: cover;
