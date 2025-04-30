@@ -18,6 +18,9 @@ body{
     visibility: visible;
     opacity: 1;
 }
+html {
+    scroll-behavior: smooth;
+  }
 /*** Spinner End ***/
 
 .back-to-top {
