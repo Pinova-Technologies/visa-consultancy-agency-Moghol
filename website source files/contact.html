@@ -156,8 +156,7 @@
 
                 </div>
 
-                <a href="contact.html" class="btn btn-primary rounded-pill py-2 px-4 px-lg-3 mb-3 mb-md-3 mb-lg-0">Get A
-                    Quote</a>
+                <a href="#contact-form-section" class="btn btn-primary rounded-pill py-2 px-4 px-lg-3 mb-3 mb-md-3 mb-lg-0">Get A Quote</a>
             </div>
 
         </nav>
@@ -317,54 +316,57 @@
                 </div>
                 <div class="col-lg-6 wow fadeInRight" id="contract-form" data-wow-delay="0.3">
                     <div class="sub-style">
-                        <h5 class="sub-title text-primary pe-3">Let's Connect</h5>
+                        <h5 class="sub-title text-primary pe-3" id="contact-form-section">Let's Connect</h5>
                     </div>
                     <h1 class="display-5 mb-4">Send Your Message</h1>
-                    
-                    <form>
-                        <div class="row g-4">
-                            <div class="col-lg-12 col-xl-6">
+                    <!-- contact form here  -->
+                    <div>
+                        <form>
+                            <div class="row g-4">
+                              <div class="col-lg-12 col-xl-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                    <label for="name">Your Name</label>
+                                  <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+                                  <label for="name">Your Name</label>
                                 </div>
-                            </div>
-                            <div class="col-lg-12 col-xl-6">
+                              </div>
+                              <div class="col-lg-12 col-xl-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                    <label for="email">Your Email</label>
+                                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                                  <label for="email">Your Email</label>
                                 </div>
-                            </div>
-                            <div class="col-lg-12 col-xl-6">
+                              </div>
+                              <div class="col-lg-12 col-xl-6">
                                 <div class="form-floating">
-                                    <input type="phone" class="form-control" id="phone" placeholder="Phone">
-                                    <label for="phone">Your Phone</label>
+                                  <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone">
+                                  <label for="phone">Your Phone</label>
                                 </div>
-                            </div>
-                            <div class="col-lg-12 col-xl-6">
+                              </div>
+                              <div class="col-lg-12 col-xl-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="project" placeholder="Project">
-                                    <label for="project">Your Project</label>
+                                  <input type="text" class="form-control" name="category" id="project" placeholder="Visa Category">
+                                  <label for="project">Visa Category</label>
                                 </div>
-                            </div>
-                            <div class="col-12">
+                              </div>
+                              <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                    <label for="subject">Subject</label>
+                                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                                  <label for="subject">Subject</label>
                                 </div>
-                            </div>
-                            <div class="col-12">
+                              </div>
+                              <div class="col-12">
                                 <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message"
-                                        style="height: 160px"></textarea>
-                                    <label for="message">Message</label>
+                                  <textarea class="form-control" name="message" id="message" placeholder="Message"
+                                    style="height: 160px"></textarea>
+                                  <label for="message">Message</label>
                                 </div>
+                              </div>
+                              <div class="col-12">
+                                <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                              </div>
                             </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3">Send Message</button>
-                            </div>
-                        </div>
-                    </form>
+                          </form>
+                    </div>
+                      
                 </div>
             </div>
             <!-- social media link -->
@@ -443,10 +445,7 @@
                             <div class="office-content d-flex flex-column">
                                 <h4 class="mb-2 text-white">Malaysia</h4>
                                 <a class="text-secondary fs-5 mb-2 fw-bold mt-5">Coming soon</a>
-                                <!-- <a href="#" class="text-secondary fs-5 mb-2">01234.567.890</a>
-                                <a href="#" class=" fs-5 mb-2 text-navy-blue">travisa@example.com</a>
-                                <p class="mb-0 text-navy-blue ">123, First Floor, 123 St Roots Terrace, Los Angeles 90010 Unitd States
-                                    of America.</p> -->
+                                
                             </div>
                         </div>
                     </a>
@@ -573,6 +572,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+      
 </body>
 
 </html>
