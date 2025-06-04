@@ -123,3 +123,31 @@ document.addEventListener("DOMContentLoaded", function () {
     setupDropdownLink("servicesDropdown");
     setupDropdownLink("countriesDropdown");
 });
+
+// see more and see less button 
+document.addEventListener('DOMContentLoaded', function () {
+        const cards = document.querySelectorAll('.canada-card');
+        const seeMoreBtn = document.getElementById('see-more-btn');
+        const seeLessBtn = document.getElementById('see-less-btn');
+        const defaultVisible = 4;
+
+        function showDefaultCards() {
+            cards.forEach((card, idx) => {
+                card.style.display = idx < defaultVisible ? '' : 'none';
+            });
+            seeMoreBtn.classList.remove('d-none');
+            seeLessBtn.classList.add('d-none');
+        }
+
+        function showAllCards() {
+            cards.forEach(card => card.style.display = '');
+            seeMoreBtn.classList.add('d-none');
+            seeLessBtn.classList.remove('d-none');
+        }
+
+        seeMoreBtn.addEventListener('click', showAllCards);
+        seeLessBtn.addEventListener('click', showDefaultCards);
+
+        // Initialize
+        showDefaultCards();
+    });
